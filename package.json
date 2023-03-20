@@ -1,0 +1,16 @@
+{
+  "name": "testingmongodb",
+  "version": "1.0.0",
+  "description": "Evaluate DocumetDB as an alternative database to increase efficiency.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node -r dotenv/config src/index.js"
+  },
+  "author": "Salil Bhole",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.1.0"
+  }
+}
